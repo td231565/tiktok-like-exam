@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
-import { RouterLink, RouterView, useRoute, useRouter } from 'vue-router'
+import { ref } from 'vue'
+import { RouterView, useRoute, useRouter } from 'vue-router'
 
 const navList = [
   { id: 1, name: 'Following', path: '/follow' },

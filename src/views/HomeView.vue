@@ -3,9 +3,6 @@ import { ref, nextTick, watch } from 'vue'
 import useFetch from '@/apis/index'
 import Hls from 'hls.js'
 import { useVideoStore } from '@/stores/video'
-// import 'swiper/css/bundle'
-// import { register } from 'swiper/element/bundle'
-// register()
 
 const prop = defineProps<{
   page: 'foryou' | 'follow'
